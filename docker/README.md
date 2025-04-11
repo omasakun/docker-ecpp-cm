@@ -36,4 +36,4 @@ docker run --rm -it o137/cm ecpp -n "11^11+22^22+33^33+149" -c -p
 
 ## Repository
 
-https://github.com/omasakun/docker-cm
+https://github.com/omasakun/docker-ecpp-cm
