@@ -1,8 +1,8 @@
-# Dockerfile for CM software
+# Docker Image for CM software
 
 [The CM software](https://www.multiprecision.org/cm/index.html) provides a fast [ECPP](https://en.wikipedia.org/wiki/Elliptic_curve_primality) implementation, which can be used to test the primality of large numbers.
 
-This repository contains a Dockerfile to build a Docker image with the CM software and its dependencies.
+This repository contains Docker images with the CM software and its dependencies.
 
 ## Features
 
@@ -34,8 +34,6 @@ docker run --rm -it o137/cm gp
 docker run --rm -it o137/cm ecpp -n "11^11+22^22+33^33+149" -c -p
 ```
 
-## License
+## Repository
 
-This repository is licensed under [the MIT License](LICENSE).
-
-Copyright (c) 2025 omasakun
+https://github.com/omasakun/docker-cm

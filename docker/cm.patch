@@ -1,0 +1,24 @@
+diff --git a/tests/tecpp.c b/tests/tecpp.c
+index 6cb4802..44a0d86 100644
+--- a/tests/tecpp.c
++++ b/tests/tecpp.c
+@@ -21,6 +21,7 @@ with CM; see the file COPYING. If not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ */
+
++#include <stdio.h>
+ #include "cm.h"
+
+ /*****************************************************************************/
+diff --git a/tests/ttwist.c b/tests/ttwist.c
+index 5f1fcdf..3dd746b 100644
+--- a/tests/ttwist.c
++++ b/tests/ttwist.c
+@@ -21,6 +21,7 @@ with CM; see the file COPYING. If not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+ */
+
++#include <stdio.h>
+ #include "cm.h"
+
+ /*****************************************************************************/
